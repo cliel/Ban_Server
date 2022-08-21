@@ -15,3 +15,5 @@ However, the setting has changed from ini to json, the underlying platform has s
 변경된 사용법은 아래 주소를 참고해 주십시오.
 
 Please refer to the address below for the changed usage.
+
+https://cliel.tistory.com/entry/%EB%AC%B4%EC%B0%A8%EB%B3%84-%EB%8C%80%EC%9E%85-%EA%B3%B5%EA%B2%A9-%EB%B0%A9%EC%96%B4-%EB%8F%84%EA%B5%AC-Brute-Force-Attack-Depend-Tool-BanServer
