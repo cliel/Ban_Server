@@ -43,7 +43,7 @@ try
 
     foreach (EventLog log in ele)
     {
-        IEnumerable<EventLogEntry> Iele = log.Entries.Cast<EventLogEntry>().Where(x => x.InstanceId == 4625 || x.InstanceId == 3221243928);
+        IEnumerable<EventLogEntry> Iele = log.Entries.Cast<EventLogEntry>().Where(x => x.InstanceId == 4625 || x.InstanceId == 3221243928 || x.InstanceId == 3221243308);
 
         foreach (EventLogEntry entry in Iele)
         {
