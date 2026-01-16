@@ -4,8 +4,8 @@ using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 
-const string FirewallName = "***REMOTE_BAN***";
-const string RemoteCategory = "Security";
+const string FirewallName = "***MSSQL_BAN***";
+const string MSSQLCategory = "Application";
 
 int failedCount = 1;
 
@@ -31,7 +31,7 @@ Dictionary<string, int> ipTable = new Dictionary<string, int>();
 
 try
 {
-    EventLog[] ele = Array.FindAll(EventLog.GetEventLogs(Environment.MachineName.Trim()), x => (x.Log.Trim() == RemoteCategory));
+    EventLog[] ele = Array.FindAll(EventLog.GetEventLogs(Environment.MachineName.Trim()), x => (x.Log.Trim() == MSSQLCategory));
     Regex rx = new Regex(@"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b");
 
     foreach (EventLog log in ele)
