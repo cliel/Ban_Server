@@ -17,3 +17,13 @@ However, the setting has changed from ini to json, the underlying platform has s
 Please refer to the address below for the changed usage.
 
 https://cliel.tistory.com/entry/%EB%AC%B4%EC%B0%A8%EB%B3%84-%EB%8C%80%EC%9E%85-%EA%B3%B5%EA%B2%A9-%EB%B0%A9%EC%96%B4-%EB%8F%84%EA%B5%AC-Brute-Force-Attack-Depend-Tool-BanServer
+
+변경사항
+1. 26년1월
+- .NET6에서 .NET10으로 전환, 관련 Package교체
+- 통합이던 Ban_Server를 REMOTE 방어용인 Ban_Server와 MSSQL 방어용인 Ban_MSSQL로 분리 (기존 통하본은 중대한 오류를 유발할 수 있음!)
+
+Changes Log
+1. January 2026
+- Transition from .NET 6 to .NET 10, replacing related packages
+- Split the previously unified Ban_Server into Ban_Server for REMOTE defense and Ban_MSSQL for MSSQL defense (Using the old version may cause critical errors!)
