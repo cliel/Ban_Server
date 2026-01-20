@@ -22,8 +22,10 @@ https://cliel.tistory.com/entry/%EB%AC%B4%EC%B0%A8%EB%B3%84-%EB%8C%80%EC%9E%85-%
 1. 26년1월
 - .NET6에서 .NET10으로 전환, 관련 Package교체
 - 통합이던 Ban_Server를 REMOTE 방어용인 Ban_Server와 MSSQL 방어용인 Ban_MSSQL로 분리 (기존 통하본은 중대한 오류를 유발할 수 있음!)
+- MSSQL부분 EventLog 추가
 
 Changes Log
 1. January 2026
 - Transition from .NET 6 to .NET 10, replacing related packages
 - Split the previously unified Ban_Server into Ban_Server for REMOTE defense and Ban_MSSQL for MSSQL defense (Using the old version may cause critical errors!)
+- Added MSSQL EventLog
